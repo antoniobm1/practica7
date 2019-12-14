@@ -14,7 +14,7 @@ apt-get install git -y
 
 #clonamos nuestro archivo de nuestro repositorio
 cd /home/ubuntu
-git clone https://github.com/ElEmEnTzxc/practica7.git
+git clone https://github.com/antoniobm1/practica7.git
 
 #borramos el archivo default para copiar el nuevo
 cd /etc/nginx/sites-enabled/
