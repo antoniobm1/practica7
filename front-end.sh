@@ -31,9 +31,10 @@ systemctl restart php7.2-fpm
 
 # Editamos el archivo de configuración /etc/nginx/sites-available/default
 cd /home/ubuntu
-cp practica6/default /etc/nginx/sites-available/
+git clone https://github.com/antoniobm1/practica7
+cp practica7/default /etc/nginx/sites-available/
 systemctl restart nginx
 
 #Comprobamos
 cd /home/ubuntu
-cp practica6/info.php /var/www/html/
+cp practica7/info.php /var/www/html/
